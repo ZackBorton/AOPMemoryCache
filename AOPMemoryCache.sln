@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOPMemoryCache", "AOPMemoryCache\AOPMemoryCache.csproj", "{5C126275-44C7-4C9D-B7DB-76A90E0349E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOPMemoryCache.Tests", "AOPMemoryCache.Tests\AOPMemoryCache.Tests.csproj", "{2409265C-57EE-454B-B419-986502F8372D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C126275-44C7-4C9D-B7DB-76A90E0349E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C126275-44C7-4C9D-B7DB-76A90E0349E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C126275-44C7-4C9D-B7DB-76A90E0349E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C126275-44C7-4C9D-B7DB-76A90E0349E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2409265C-57EE-454B-B419-986502F8372D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2409265C-57EE-454B-B419-986502F8372D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2409265C-57EE-454B-B419-986502F8372D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2409265C-57EE-454B-B419-986502F8372D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
