@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Logic.Tests\Logic.Tests.csproj" />
+      <ProjectReference Include="..\Models\Models.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
+      <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.0.1" />
+    </ItemGroup>
+</Project>

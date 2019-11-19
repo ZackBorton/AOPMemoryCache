@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <AspNetCoreHostingModel>inprocess</AspNetCoreHostingModel>
+        <IsPackable>true</IsPackable>
+        <DocumentationFile>API.xml</DocumentationFile>
+        <PackageId>BasicTemplate</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>ZackBorton</Authors>
+        <Company>BortonIndustries</Company>
+
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.0.0-preview8.19405.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
+        <PackageReference Include="StructureMap.AspNetCore" Version="2.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Logic\Logic.csproj" />
+    </ItemGroup>
+</Project>
